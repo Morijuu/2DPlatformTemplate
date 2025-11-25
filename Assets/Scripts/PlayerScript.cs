@@ -25,6 +25,14 @@ public class PlayerScript : MonoBehaviour
         //Rewrite this "Vector2 move = callbackContext.ReadValue<Vector2>();" as:
         move = playerInput.actions["Movement"].ReadValue<Vector2>();
         //Debug.Log("Input modifified by el processor: " + move);
+
+
+        //To test some behaviour we can still use the old way, only for testing!!
+        //Keyboard, Gamepad, Mouse, ...
+        if (Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            Debug.Log("E key pressed");
+        }
     }
 
     private void FixedUpdate()
