@@ -11,7 +11,7 @@
                     "id": "bdfc6b7f-5425-41f9-a851-390793f781df",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "Hold",
+                    "interactions": "",
                     "initialStateCheck": false
                 },
                 {
@@ -39,7 +39,7 @@
                 {
                     "name": "",
                     "id": "f282f629-c2f3-4574-a28f-65bfd058fb0b",
-                    "path": "<Mouse>/rightButton",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Mouse",
@@ -107,7 +107,7 @@
                     "id": "256aad3e-dbb0-418a-b241-7ef7068bfd25",
                     "path": "2DVector",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "InvertVector2",
                     "groups": "",
                     "action": "Movement",
                     "isComposite": true,
