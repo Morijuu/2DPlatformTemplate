@@ -24,7 +24,7 @@ public class PlayerScript : MonoBehaviour
         //Check the input on each frame
         //Rewrite this "Vector2 move = callbackContext.ReadValue<Vector2>();" as:
         move = playerInput.actions["Movement"].ReadValue<Vector2>();
-        Debug.Log(move);
+        //Debug.Log(move);
     }
 
     private void FixedUpdate()
